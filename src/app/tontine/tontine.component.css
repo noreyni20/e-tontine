@@ -1,20 +1,19 @@
 /* tableaux */
 
-  table{
-    margin: auto;
-    padding: auto;
+table{
+    
     outline: 0;
     z-index: 999;
     top: 25%;
-    
+    margin-left: 280px;
     transform: translate(-25%,-25%);
-
+    width: 100%;
     text-align: center;
     border-collapse: collapse;
     border-radius: 12px;
     border-spacing: 0;
     overflow: hidden;
-    
+
   }
   
   th{

@@ -6,17 +6,24 @@ import { AppComponent } from './app.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { HomeComponent } from './home/home.component';
 import { InscriptionComponent } from './inscription/inscription.component';
+import { TontineComponent } from './tontine/tontine.component';
+import {  HttpClientModule } from '@angular/common/http';
+import { MembreComponent } from './membre/membre.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ConnexionComponent,
     HomeComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    TontineComponent,
+    MembreComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

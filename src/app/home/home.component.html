@@ -1,3 +1,6 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -6,20 +9,15 @@
       </a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#faq">FAQs</a></li>
-          <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">A Propos</a></li>
+      
+          <li class="dropdown"><a href="#tontines"><span>Tontines</span></a>
+           
           </li>
-          <li><a href="#recent-posts">News</a></li>
+          <li><a href="#recent-posts">Comment ça marche ?</a></li>
+          <li><a href="#recent-posts">Temoignage</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="/connexion"> <img src="assets/images/connexion.ico" > </a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -36,8 +34,8 @@
     <div class="container position-relative">
       <div class="row gy-5" data-aos="fade-in">
         <div class="col-lg-12  order-lg-1 d-flex flex-column justify-content-center text-center caption">
-          <h2>Welcome to <span>E</span><span class="circle">Tontine</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <h2>Bienvenue sur <span>E</span><span class="circle">Tontine</span></h2>
+          <p>La tontine autrement </p>
         </div>
       </div>
     </div>
@@ -58,7 +56,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bi bi-headset"></i></div>
               <h2 class="title"><a href="" class="stretched-link">24/7</a></h2>
-              <h4 class="title"><a href="" class="stretched-link">Quick Support For All Clients</a></h4>
+              <h4 class="title"><a href="" class="stretched-link">Mes Tontines</a></h4>
             </div>
           </div>
           <!--End Icon Box -->
@@ -84,7 +82,7 @@
       <div class="container" data-aos="fade-up">
   
         <div class="section-header">
-          <h2>About Us</h2>
+          <h2>A propos</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
   
@@ -113,10 +111,20 @@
         </div>
   
       </div>
+      
     </section><!-- End About Us Section -->
+
+    
+    <section id="tontines">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+      <app-tontine></app-tontine>
+    </div>
+  </div>
+  </section>
   
     <!-- - - - - - - - -  Clients Section - - - - - - - -  -->
-    <section id="clients" class="clients">
+    <!-- <section id="clients" class="clients">
       <div class="container" data-aos="zoom-out">
   
         <div class="clients-slider swiper">
@@ -133,16 +141,22 @@
         </div>
   
       </div>
-    </section><!-- End Clients Section -->
+    </section>End Clients Section -->
+
+    <!-- Tableaux -->
+ 
+  
+    <!-- Fin tableaux -->
   
     <!-- - - - - - - - -  Call To Action Section - - - - - - - -  -->
-    <section id="call-to-action" class="call-to-action">
+    <!-- <section id="call-to-action" class="call-to-action">
       <div class="container text-center" data-aos="zoom-out">
         <h3>Read to start something great?</h3>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-        <a class="cta-btn" href="mailto:info@example.com">Conatct Us</a>
+        <a class="cta-btn" href="mailto:info@example.com">Contact Us</a>
       </div>
-    </section><!-- End Call To Action Section -->
+    </section> -->
+    <!-- End Call To Action Section -->
   
     <!-- - - - - - - - -  Testimonials Section - - - - - - - -  -->
     <section id="testimonials" class="testimonials">

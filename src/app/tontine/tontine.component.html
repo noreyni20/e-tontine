@@ -1,0 +1,38 @@
+
+<div class="row gy-5" data-aos="fade-in">
+  <div class="col-lg-12  order-lg-1 d-flex flex-column justify-content-center">
+
+    <table class="table-responsive">
+      <caption>Tontines</caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Libelle</th>
+          <th>montant Versement</th>
+          <th>montant Amende</th>
+          <th>Date de debut</th>
+          <th>Date de fin</th>
+          <th>Montant total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let tontine of tontines">
+          <td>{{tontine.id}}</td>
+          <td>{{tontine.libelle}}</td>
+          <td>{{tontine.montantVersement}} Francs</td>
+          <td>{{tontine.montantAmende}} Francs</td>
+          <td>{{tontine.dateCreation}}</td>
+          <td>{{tontine.dateEcheance}}</td>
+          <td>{{tontine.montantAuTirage}}</td>
+          
+        </tr>
+      
+      </tbody>
+  </table>
+
+  </div>
+</div>
+
+
+
+  
